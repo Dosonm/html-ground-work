@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        div {
+            width: 80px;
+            height: 80px;
+            border: 1px solid red;
+        }
+        #contentbox{
+            box-sizing: content-box;
+            
+        }
+        #borderbox{
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <!-- css 박스모델에는 border 와 contents 2개가 존재한다 border=이미 고정되어 있는 박스 contents=이미 고정되어 있는 컨텐츠
+    box-sizing:border-box  box-sizing:contents-box -->
+        <div id="contentbox">박스1</div>
+        <div>박스2</div>
+        <div id="borderbox">박스3</div>
+</body>
+</html>

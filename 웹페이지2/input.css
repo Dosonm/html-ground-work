@@ -1,0 +1,39 @@
+.pb{
+    border: 1px solid lightblue;
+    padding: 30px;
+    width: 600px;
+    height: 600px;
+    margin-left: 28%;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+}
+
+.prom{
+    border: 1px solid white;
+    border-bottom: 1px solid gray;
+    }
+h1{
+    color: blue;
+}
+select{
+    margin-left: 400px;
+}
+.spb{
+    border: 1px solid white;
+    padding-left: 30%;
+}
+.spb2{
+    text-align: center;
+}
+.spb3{
+    width: 600px;
+    height: 100px;
+    color: lightseagreen;
+    border: 1px solid skyblue;
+    font-size: 30px;
+}
+/* 정렬 flex                      display: flex ....
+        position
+        grid */

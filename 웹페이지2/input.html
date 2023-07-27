@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="input.css" rel="stylesheet">
+</head>
+<body>
+<div class="pb">
+    <h1>회원가입을 위해 정보를 입력해주세요</h1>
+    <input class="prom" type="text" placeholder="이메일을 입력해주세요"><br><br><!--웹브라우저에서 type="text"는 기본값이라 입력안해도 상관은없음-->
+    <input class="prom" type="text" placeholder="이름을 입력해주세요"><br><br>
+    <input class="prom" type="password" placeholder="비밀번호를 입력해주세요"><br><br>
+    <input class="prom" type="password" placeholder="비밀번호를 다시 입력해주세요"><br><br>
+    <select>
+        <option disabled="true" selected="true">좋아하는 선수를 선택해주세요</option>
+        <option>게이치</option>
+        <option>포이리에</option>
+        <option>마카체프</option>
+        <option>올리베이라</option>
+    </select><br><br>
+    <div class="spb">
+        <input type="radio" name="kind">프로선수 <!--<span>프로선수</span>인데 span태그가 생략된거임-->
+        <input type="radio" name="kind">아마추어
+        <input type="radio" name="kind">관계자<br><br>
+    </div>    
+    <div class="spb2">
+        <input type="checkbox">이용약관 개인정보 수집 확인<br><br>
+    </div>
+    <div>
+        <button class="spb3">가입하기</button>
+    </div>
+    <!-- <input type="button" value="가입하기"> 원래는 이렇게 작성했는데 css를 통해서 input태그의 button속성을 꾸며주기가 어려워서 button태그가 따로 생김-->
+    <!-- html 주석태그 ctrl + ? -->
+</div>
+</body>
+</html>

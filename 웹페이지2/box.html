@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .parentbox{
+            box-sizing: border-box;
+            width: 800px;
+            height: 400px;
+            border: 1px solid red;
+            display: flex;
+            flex-direction: row; /* 기본값 */
+            justify-content: center; /* 그방향대로 */
+            justify-content: space-evenly;
+            align-items: center; /* 수직방향으로 */
+        }
+        #contentbox{
+            box-sizing: content-box;
+            border: 1px solid blue;
+            width: 60px;
+            height: 40px;
+            
+        }
+        #borderbox{
+            box-sizing: border-box;
+            border: 1px solid blue;
+            width: 60px;
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <!-- css 박스모델에는 border 와 contents 2개가 존재한다 border=이미 고정되어 있는 박스 contents=이미 고정되어 있는 컨텐츠
+    box-sizing:border-box  box-sizing:contents-box -->
+    <div class="parentbox">
+        <div id="contentbox">박스1</div>
+        <div id="contentbox">박스2</div>
+        <div id="borderbox">박스3</div>
+        <div id="borderbox">박스4</div>
+    </div>
+</body>
+</html>

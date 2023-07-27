@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+.background{
+    width: 1024px;
+    height: 600px;
+    padding: 20px 0px 0px 20px;
+    background-image: url("../img/background.png");
+}
+.outerbox{
+    background-color: tomato;
+    width: 808px;
+    height: 544px;   
+}
