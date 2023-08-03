@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="../웹페이지4/final.css" rel="stylesheet">
+    <script src="../웹페이지4/final.js"></script>
+</head>
+<body>
+    <div class="wrapped">
+        <h1 class="wrapped__title">코드캠프 회원가입</h1>
+        <input class="wrapped__inputbox" id="wrapped__email" placeholder="이메일을 입력해 주세요."></input>
+        <input class="wrapped__inputbox" id="wrapped__name" placeholder="이름을 입력해 주세요."></input>
+        <input class="wrapped__inputbox" id="wrapped__psward" placeholder="비밀번호를 입력해 주세요."></input>
+        <input class="wrapped__inputbox" id="wrapped__psward2" placeholder="비밀번호를 다시 입력해 주세요."></input>
+        <div class="wrapped__typing">
+            <input class="wrapped__typing__box" id="firsttyping" maxlength="3" oninput="changecursor1()">
+            <span class="wrapped__typing__dash"></span>
+            <input class="wrapped__typing__box" id="secondtyping" maxlength="4" oninput="changecursor2()">
+            <span class="wrapped__typing__dash"></span>
+            <input class="wrapped__typing__box" id="thirdtyping" maxlength="4" oninput="activatecheckbox()">
+        </div>
+        <div class="wrapped__checknumber">
+            <div class="wrapped__checknumber__num" id="checknum">000000</div>
+            <button class="wrapped__checknumber__button" id="checkbox" disabled onclick="clickcheckbox()">인증번호 전송</button>
+        </div>
+        <div class="wrapped__timer">
+            <div class="wrapped__timer__time" id="time">0:00</div>
+            <button class="wrapped__timer__button" id="completebutton" onclick="completemessage()" disabled>인증 완료</button>
+        </div>
+        <select class="wrapped__region">
+            <option disabled selected="true">지역을 선택하세요</option>
+            <option>A지역</option>
+            <option>B지역</option>
+            <option>C지역</option>
+            <option>D지역</option>
+        </select>
+        <div class="wrapped__sex">
+            <input type="radio" name="sex">남성
+            <input type="radio" name="sex">여성
+        </div>
+        <button class="wrapped__sign">가입하기</button>
+    </div>
+</body>
+</html>

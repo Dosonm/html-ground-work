@@ -1,0 +1,29 @@
+.one{
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+.a{
+    width: 165px;
+    height: 165px;
+    background-color: red;
+}
+.b{
+    width: 165px;
+    height: 165px;
+    background-color: blue;
+}
+.c{
+    width: calc(100% - 330px);            /* css 작성시 최대한 깔끔하게, 생각하면서 작성하자  */
+    height: 100%;
+    background-color: yellow;
+}
+.two{
+    width: 500px;
+    height: 500px;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+}

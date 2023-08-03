@@ -5,6 +5,7 @@
     <title>미니홈피</title>
     <link href="css/index.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/9cfc06721e.js" crossorigin="anonymous"></script>
+    <script src="../웹페이지3/js/index.js"></script>
 </head>
 <body>
     <div class="background">
@@ -59,8 +60,13 @@
                         <div class="right__header__setting">사생활보호설정▶</div>
                     </div>
                     <div class="wrapper__right__body">
-                        <iframe src="song.html"></iframe>
+                        <iframe src="page.html" id="content"></iframe>
                     </div>
+                </div>
+                <div class="wrapper__nevigation">
+                    <div class="nevigation__button" id="menuhome" onclick="menuhome()">홈</div>
+                    <div class="nevigation__button" id="menugame" onclick="menugame()">게임</div>
+                    <div class="nevigation__button" id="menusong" onclick="menusong()">노래</div>
                 </div>
             </div>
         </div>

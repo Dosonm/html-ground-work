@@ -1,0 +1,85 @@
+.wrapped{
+    width: 540px;
+    height: 960px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #AACDFF;
+    padding: 40px;
+    justify-content: space-evenly;
+}
+.wrapped__title{
+    height: 47px;
+    color: #0068FF;
+}
+.wrapped__inputbox{
+    height: 60px;
+    border: 1px solid #0068FF;
+    border-radius: 7px;
+}
+.wrapped__typing{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.wrapped__typing__box{
+    width: 100px;
+    height: 40px;
+    border: 1px solid #D2D2D2;
+    text-align: center;
+}
+.wrapped__typing__dash{
+    width: 12px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+}
+.wrapped__checknumber{
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.wrapped__checknumber__num{
+    width: 60px;
+    color: #0068FF;
+    font-size: 18px;
+    margin: 10px;
+}
+.wrapped__checknumber__button{
+    width: 120px;
+    color: #0068FF;
+    border: 1px solid #D2D2D2;
+    cursor: pointer;
+}
+.wrapped__timer{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    justify-content: end;
+}
+.wrapped__timer__time{
+    color: #0068FF;
+    font-size: 18px;
+    margin: 5px 15px;
+    font-weight: bold;
+}
+.wrapped__timer__button{
+    width: 120px;
+    background-color: #0068FF;
+    color: white;
+    border: 1px solid #0068FF;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.wrapped__region{
+    height: 60px;
+    border: 1px solid #D2D2D2;
+}
+.wrapped__sex{
+    text-align: center;
+}
+.wrapped__sign{
+    height: 75px;
+    border: 1px solid #0068FF;
+    border-radius: 7px;
+    cursor: pointer;
+}
