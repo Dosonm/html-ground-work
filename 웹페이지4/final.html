@@ -8,10 +8,22 @@
 <body>
     <div class="wrapped">
         <h1 class="wrapped__title">코드캠프 회원가입</h1>
-        <input class="wrapped__inputbox" id="wrapped__email" placeholder="이메일을 입력해 주세요."></input>
-        <input class="wrapped__inputbox" id="wrapped__name" placeholder="이름을 입력해 주세요."></input>
-        <input class="wrapped__inputbox" id="wrapped__psward" placeholder="비밀번호를 입력해 주세요."></input>
-        <input class="wrapped__inputbox" id="wrapped__psward2" placeholder="비밀번호를 다시 입력해 주세요."></input>
+        <div class="parrent__inputbox">
+            <input class="wrapped__inputbox" id="wrapped__email" placeholder="이메일을 입력해 주세요."></input>
+            <div class="wrapped__inputbox__error" id="emailerror"></div>
+        </div>
+        <div class="parrent__inputbox">
+            <input class="wrapped__inputbox" id="wrapped__name" placeholder="이름을 입력해 주세요."></input>
+            <div class="wrapped__inputbox__error" id="nameerror"></div>
+        </div>
+        <div class="parrent__inputbox">
+            <input class="wrapped__inputbox" id="wrapped__psward" placeholder="비밀번호를 입력해 주세요."></input>
+            <div class="wrapped__inputbox__error" id="pswarderror"></div>
+        </div>
+        <div class="parrent__inputbox">
+            <input class="wrapped__inputbox" id="wrapped__psward2" placeholder="비밀번호를 다시 입력해 주세요."></input>
+            <div class="wrapped__inputbox__error" id="psward2error"></div>
+        </div> 
         <div class="wrapped__typing">
             <input class="wrapped__typing__box" id="firsttyping" maxlength="3" oninput="changecursor1()">
             <span class="wrapped__typing__dash"></span>
@@ -38,7 +50,7 @@
             <input type="radio" name="sex">남성
             <input type="radio" name="sex">여성
         </div>
-        <button class="wrapped__sign">가입하기</button>
+        <button class="wrapped__sign" onclick="final()" id="finalbutton">가입하기</button>
     </div>
 </body>
 </html>
